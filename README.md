@@ -21,7 +21,7 @@ cmake ..
 make 
 ```
 
-##### Binary executable found under `chromCov/build/src/chromCov`
+##### Binary executable found under `rgged/build/src/rgged`
 
 ## Usage 
 
