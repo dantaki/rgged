@@ -8,28 +8,6 @@
 #include <fstream>
 using namespace BamTools;
 using namespace std;
-inline vector<string> split(string &s, char delim) 
-{
-  vector<string> v;
-  stringstream ss(s); string i; 
-  while(getline(ss, i, delim)) { v.push_back(i); }
-  return v;
-}
-inline int32_t rightPos(int32_t &pos, vector<CigarOp> &cigar){
-	int len=0;
-	for(vector<CigarOp>::iterator it=cigar.begin(); it != cigar.end(); ++it){
-		if(it->Type == 'D' || it->Type == 'M' || it->Type == '=' || it->Type == 'X') { len+=it->Length; }
-	}
-	len+=pos;
-	return len;
-}
-inline vector<CigarOp> rollCig(string &cigar) {
-	vector<CigarOp> splitCigar;
-	istringstream parser(cigar);
-	char sC; uint32_t sL;
-	while(parser >> sL >> sC) { splitCigar.push_back(CigarOp(sC, sL)); }
-	return splitCigar;
-}
 int main(int argc, char *argv[])
 {
 	const string splash="rgged        Alter or Add Read Group (RG) Information\n"
