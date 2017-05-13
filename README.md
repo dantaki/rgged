@@ -45,13 +45,12 @@ Options:
 
 ## Acknowledgements
 
-rgged uses [BamTools](https://github.com/pezmaster31/bamtools) and [zlib](http://zlib.net/)
+rgged uses [BamTools](https://github.com/pezmaster31/bamtools)
 
 > *BamTools*
 > Copyright (c) 2009-2010 Derek Barnett, Erik Garrison, Gabor Marth, Michael Stromberg
 
-> *zlib*
-> Copyright (C) 1995-2012 Jean-loup Gailly and Mark Adler
+Notice: BamTools requires [zlib](http://zlib.net/).
 
 ## License
 
