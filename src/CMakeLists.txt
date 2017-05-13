@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 project(rgged)
 set( CMAKE_C_FLAGS "-Wall -g -O3")
-include_directories (../lib/bamtools-2.3.0/src)
+include_directories (../lib/bamtools/src)
 include_directories(../lib/tclap-1.2.1/include)
 add_executable(rgged rgged.cc)
 TARGET_LINK_LIBRARIES(rgged BamTools-static)
