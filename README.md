@@ -36,7 +36,7 @@ rgged        Alter or Add Read Group (RG) Information
 
 Version: 1.0	Author: Danny Antaki <dantaki@ucsd.edu>
 
-Usage: rgged -i <in.bam> -id <ID> -lb <LIBRARY> -pl <PLATFORM> -sm <SAMPLE> -o <output.bam>
+Usage: rgged -i <in.bam> -id <ID> -lb <LIBRARY> -pl <PLATFORM> -sm <SAMPLE> >output.bam
 
 Options:
     -i        Input: BAM filename
@@ -44,7 +44,6 @@ Options:
     -lb       Library
     -pl       Platform
     -sm       Sample
-    -o        Output: BAM filename [Default: in_rgged.bam]
 ```
 
 ## Acknowledgements
