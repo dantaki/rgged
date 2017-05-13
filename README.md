@@ -13,12 +13,9 @@ git clone --recursive https://github.com/dantaki/rgged.git
 
 ```
 cd rgged/
-mkdir build
-cd build/
+mkdir build && cd build/
 
-cmake .. 
-
-make 
+cmake .. && make 
 ```
 
 ##### Binary executable found under `rgged/build/src/rgged`
