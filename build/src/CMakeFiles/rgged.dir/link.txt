@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/rgged.dir/rgged.cc.o  -o rgged -rdynamic ../../lib/libbamtools.a ../lib/zlib-1.2.7/libz.a 
