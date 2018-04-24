@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
 	SamProgram rgged; rgged.CommandLine = args; rgged.ID="rgged";
 	head.Programs.Add(rgged); 
 	SamReadGroup myRG; myRG.ID=ID; if(SM=="") { SM=ID; myRG.Sample=SM;} 
-	if(SM!="") { my RG.Sample=SM;}
+	if(SM!="") { myRG.Sample=SM;}
 	if(LB!="") { myRG.Library=LB;} 
 	if(PL!="") { myRG.SequencingTechnology=PL;}
 	SamReadGroupDictionary rg; rg.Add(myRG);
